@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hello-config #pod name
+data:
+  MESSAGE: "hello from config"
